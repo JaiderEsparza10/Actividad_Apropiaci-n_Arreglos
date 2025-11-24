@@ -25,5 +25,7 @@ for (let i = 0; i < arreglo_de_objetos.length; i++){
     console.log(`Objeto ${i + 1}:`);
     for (let propiedad in arreglo_de_objetos[i]) {
         console.log("  " + propiedad + ": " + arreglo_de_objetos[i][propiedad]);
+        // Rompemos el bucle luego de mostrar eñ primero atributo
+        break;
     }
 }
